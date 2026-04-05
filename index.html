@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKADHA_25 | Alumni Darul Huda</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style-beranda.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo-navbar">
+                <img src="LOGO%20IKADHA%20NEW.png" alt="logo ikadha">
+                <div class="text-logo">
+                    <h1>Ikatan Alumni Darul Huda Mayak</h1>
+                    <h2>Angkatan 2025</h2>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#Beranda">Beranda</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#footer">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- NEW SECTION: About Us -->
+    <section id="about">
+        <div class="about-text">
+            <h2 class="section-title" style="text-align: left; margin-bottom: 1.5rem;">Tentang Kami</h2>
+            <p><strong>Ikatan Alumni Darul Huda (IKADHA) Angkatan 2025</strong> adalah wadah silaturahmi bagi para
+                lulusan tahun 2025. Kami berkomitmen untuk terus menjalin ukhuwah islamiyah dan berkontribusi bagi
+                almamater tercinta.</p>
+            <p>Visi kami adalah mewujudkan alumni yang solid, bermanfaat, dan berakhlaqul karimah.</p>
+            <button class="btn-primary">Selengkapnya</button>
+        </div>
+        <div class="about-image">
+            <img src="kegiatan%20santri.JPG" alt="Kegiatan Santri">
+        </div>
+    </section>
+
+    <section id="Beranda" class="hero" style="min-height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 6rem 5% 2rem; position: relative;">
+        <!-- Glowing animated background for logo -->
+        <div style="position: relative; margin-bottom: 0; display: flex; justify-content: center; align-items: center; width: 100%;">
+            <div style="position: absolute; width: 350px; height: 350px; background: radial-gradient(circle, rgba(45, 212, 191, 0.4) 0%, transparent 70%); filter: blur(40px); z-index: 1; animation: breathe 4s ease-in-out infinite alternate;"></div>
+            
+            <div style="position: relative; z-index: 2; border-radius: 50%; padding: 2rem; background: rgba(30, 41, 59, 0.5); backdrop-filter: blur(12px); border: 2px solid rgba(45, 212, 191, 0.4); box-shadow: 0 0 50px rgba(45, 212, 191, 0.3); transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);" onmouseover="this.style.transform='translateY(-15px) scale(1.05)'; this.style.boxShadow='0 20px 60px rgba(45, 212, 191, 0.6)';" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 0 50px rgba(45, 212, 191, 0.3)';">
+                <img src="logo%20haul.png" alt="Logo Haul ke-23" style="width: 100%; max-width: 320px; height: auto; display: block; filter: drop-shadow(0 15px 25px rgba(0,0,0,0.6));">
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Informasi Haul -->
+    <section id="informasi-haul">
+        <h2 class="section-title">Informasi & Denah Haul Ke-23</h2>
+        <div style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--text-color); font-size: 1.05rem; line-height: 1.8;">
+            <p>Hadirilah dan syiarkanlah rangkaian acara Haul ke-23 KH. Hasyim Sholeh, Mujahadah Dzikrul Ghofilin, dan Kenduri Alumni. Berikut adalah pamflet resmi beserta denah lokasi acara untuk memudahkan kehadiran Anda.</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; align-items: stretch; max-width: 1000px; margin: 0 auto;">
+            <!-- Pamflet Card -->
+            <div class="content-announcement" style="padding: 1.5rem; display: flex; flex-direction: column;">
+                <h3 style="margin-bottom: 1rem; color: var(--primary-color); font-size: 1.3rem;">Pamflet Acara</h3>
+                <div style="width: 100%; border-radius: 12px; overflow: hidden; margin-bottom: 1.5rem; border: 1px solid var(--card-border); box-shadow: var(--shadow);">
+                    <img src="pamplet%20haul%20.jpg" alt="Pamflet Haul Ke-23" style="width: 100%; height: auto; display: block; object-fit: cover; margin: 0;">
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom: 1.5rem; color: #94a3b8; flex-grow: 1;">Informasi lengkap mengenai jadwal dan rangkaian acara Haul Ke-23 KH. Hasyim Sholeh.</p>
+                <a href="pamplet%20haul%20.jpg" download class="btn-primary" style="margin-top: auto;">Download Pamflet</a>
+            </div>
+            
+            <!-- Denah Card -->
+            <div class="content-announcement" style="padding: 1.5rem; display: flex; flex-direction: column;">
+                <h3 style="margin-bottom: 1rem; color: var(--primary-color); font-size: 1.3rem;">Denah Lokasi</h3>
+                <div style="width: 100%; border-radius: 12px; overflow: hidden; margin-bottom: 1.5rem; border: 1px solid var(--card-border); box-shadow: var(--shadow);">
+                    <img src="mapshaul.jpg" alt="Denah Lokasi Haul Ke-23" style="width: 100%; height: auto; display: block; object-fit: cover; margin: 0;">
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom: 1.5rem; color: #94a3b8; flex-grow: 1;">Panduan rute dan denah lokasi untuk mempermudah perjalanan Anda menuju tempat acara.</p>
+                <a href="mapshaul.jpg" download class="btn-primary" style="margin-top: auto;">Download Denah</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Gallery -->
+    <section id="gallery">
+        <h2 class="section-title">Galeri Kegiatan</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="galeri%201.JPG" alt="Foto 1"></div>
+            <div class="gallery-item"><img src="galeri%202.JPG" alt="Foto 2"></div>
+            <div class="gallery-item"><img src="galeri%203.JPG" alt="Foto 3"></div>
+            <div class="gallery-item"><img src="galeri%204.JPG" alt="Foto 4"></div>
+            <div class="gallery-item"><img src="galeri%205.JPG" alt="Foto 5"></div>
+            <div class="gallery-item"><img src="galeri%206.JPG" alt="Foto 6"></div>
+        </div>
+
+        <div style="margin-top: 4rem;">
+            <h3 class="section-title" style="margin-bottom: 2rem;">Arsip Lengkap Google Drive</h3>
+            <p style="text-align: center; color: var(--text-color); margin-bottom: 2rem;">Pilih tautan di bawah ini
+                untuk mengakses foto dan video dokumentasi kegiatan kelas XII dan reuni sesuai kategori.</p>
+            <div class="drive-links-grid">
+                <a href="https://drive.google.com/folderview?id=1WuvR4TrvyHeYBitdKlfFbvQyelfhKFIM" target="_blank"
+                    class="btn-primary">Closing Ceremony</a>
+                <a href="https://drive.google.com/folderview?id=1dvZluPt3TDuQwQyZvaXERkdAg_BlFkx_" target="_blank"
+                    class="btn-primary">Diklat Kemasyarakatan</a>
+                <a href="https://drive.google.com/folderview?id=1x0Onli3XOmDBxluvmJZdhTgqGVqoVCJb" target="_blank"
+                    class="btn-primary">Pelantikan Pengurus 1</a>
+                <a href="https://drive.google.com/folderview?id=1xEWcnnZdf0Fi4tpaftK9aSJed5JKR8hA" target="_blank"
+                    class="btn-primary">Pelantikan Pengurus Ikadha 2</a>
+                <a href="https://drive.google.com/folderview?id=1nMGmHMHIAEAw5zzT2j8tlJmzPqgUUiLy" target="_blank"
+                    class="btn-primary">Darul Huda Goes to Kampus 2025</a>
+                <a href="https://drive.google.com/folderview?id=1mkcT3pg3GhLjYb4YgvGYxd2oXELIhlnC" target="_blank"
+                    class="btn-primary">Mujahadah Kubro Akhir</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>IKADHA 2025</h3>
+                <p>Website Resmi Ikatan Alumni Darul Huda Mayak Angkatan 2025.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p>Email: ikadha25@gmail.com</p>
+                <div class="social-links" style="margin-top: 1rem;">
+                    <a href="https://www.instagram.com/ikadha_25?igsh=MTJ1d2F5aDJkbXB5Yg=="
+                        class="social-btn">Instagram</a>
+                    <a href="https://wa.me/6285708203138" class="social-btn">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Ikatan Alumni Darul Huda 2025. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
